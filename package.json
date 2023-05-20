@@ -1,7 +1,7 @@
 {
 	"name": "mount-image",
 	"description": "A simple function for mounting image",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.0",
 	"packageManager": "pnpm@8.5.1",
 	"main": "dist/mount-image.cjs.js",
 	"module": "dist/mount-image.esm-bundler.js",
