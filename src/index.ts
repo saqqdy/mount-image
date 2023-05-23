@@ -39,7 +39,7 @@ export interface ImgOptions {
  * @param option - parameters: attrs, props, force
  * @returns - result
  */
-function mountImage(src: string, option: ImgOptions): Promise<boolean | string> {
+function mountImage(src: string, option: ImgOptions = {}): Promise<boolean | string> {
 	if (!src) throw new Error('[mountImage]: url is required')
 	const { attrs, props, force = false } = option
 	return new Promise((resolve, reject) => {

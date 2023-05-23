@@ -1,20 +1,20 @@
 {
 	"name": "mount-image",
 	"description": "A simple function for mounting image",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"packageManager": "pnpm@8.5.1",
-	"main": "dist/mount-image.cjs.js",
-	"module": "dist/mount-image.esm-bundler.js",
-	"browser": "dist/mount-image.esm-browser.js",
-	"unpkg": "dist/mount-image.global.js",
-	"jsdelivr": "dist/mount-image.global.js",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.esm-bundler.js",
+	"browser": "dist/index.esm-browser.js",
+	"unpkg": "dist/index.global.js",
+	"jsdelivr": "dist/index.global.js",
 	"types": "dist/index.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"module": "./dist/mount-image.esm-bundler.js",
-			"require": "./dist/mount-image.cjs.js",
-			"import": "./dist/mount-image.mjs"
+			"module": "./dist/index.esm-bundler.js",
+			"require": "./dist/index.cjs.js",
+			"import": "./dist/index.mjs"
 		},
 		"./*": "./*"
 	},
@@ -100,9 +100,9 @@
 		"mount-image",
 		"es6",
 		"javascript",
-		"js library",
-		"js lib",
-		"js tools",
+		"mount-img",
+		"load-img",
+		"load-image",
 		"saqqdy"
 	],
 	"license": "MIT",
